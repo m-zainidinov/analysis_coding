@@ -1,0 +1,32 @@
+		(1)	(2)	(3)	(4)
+					lngdppc
+			lngdppc	lngdppc	cum 5 lags
+VARIABLES	LABELS	lngdppc	5 lags	cum 5 lags	5 leads
+					
+d_edu	d.edu	0.0111	0.0133**		
+		(0.006)	(0.005)		
+L.d_edu	d.edu = L,		0.0045		
+			(0.005)		
+L2.d_edu	d.edu = L,		0.0054		
+			(0.005)		
+L3.d_edu	d.edu = L,		0.0013		
+			(0.004)		
+L4.d_edu	d.edu = L,		-0.0070		
+			(0.006)		
+L5.d_edu	d.edu = L,		-0.0040	0.0135	-0.0016
+			(0.004)	(0.014)	(0.016)
+F.d_edu	d.edu = F,				-0.0009
+					(0.005)
+F2.d_edu	d.edu = F,				0.0031
+					(0.005)
+F3.d_edu	d.edu = F,				0.0150**
+					(0.005)
+F4.d_edu	d.edu = F,				0.0051
+					(0.005)
+F5.d_edu	d.edu = F,				-0.0045
+					(0.005)
+Constant	Constant	0.0187**	0.0218**	0.0218**	0.0228**
+		(0.002)	(0.002)	(0.002)	(0.003)
+					
+Observations		3,599	2,968	2,968	2,288
+R-squared		0.001	0.003	0.003	0.007

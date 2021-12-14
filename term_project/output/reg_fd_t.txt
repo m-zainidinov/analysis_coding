@@ -1,0 +1,14 @@
+		(1)	(2)	(3)
+				lngdppc
+			lngdppc	cum 5 lags
+		lngdppc	cum 5 lags	confounder
+		cum 5 lags	confounder	aggreg trend
+VARIABLES	LABELS	aggreg trend	aggreg trend	country trend
+				
+L5.d_edu	d.edu = L,	0.0102	0.0092	0.0177
+		(0.014)	(0.014)	(0.012)
+Constant	Constant	0.0240**	0.0228**	0.0235**
+		(0.004)	(0.004)	(0.003)
+				
+Observations		2,968	2,968	2,968
+R-squared		0.066	0.070	0.198

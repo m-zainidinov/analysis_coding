@@ -1,0 +1,15 @@
+		(1)	(2)	(3)	(4)
+					lngdppc
+			lngdppc	lngdppc	confounder
+VARIABLES	LABELS	lngdppc	confounder	aggreg trend	aggreg trend
+					
+edu	Average number of years of total schooling across all education levels (for the	0.1644**	0.1640**	0.0042	0.0011
+		(0.014)	(0.014)	(0.022)	(0.022)
+ineq	Bottom 50% share		-1.0465		-1.5396*
+			(0.781)		(0.662)
+Constant	Constant	7.9295**	8.1033**	8.9239**	9.2010**
+		(0.104)	(0.144)	(0.138)	(0.182)
+					
+Observations		3,735	3,735	3,735	3,735
+R-squared		0.427	0.431	0.544	0.553
+Number of c		136	136	136	136
